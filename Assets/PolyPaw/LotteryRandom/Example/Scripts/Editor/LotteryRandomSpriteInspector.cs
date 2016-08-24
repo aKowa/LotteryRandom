@@ -13,7 +13,7 @@ public class LotteryRandomSpriteInspector : Editor
 
 		if (randomSprite == null)
 		{
-			Debug.LogError("LotteryGenerator not assigned");
+			Debug.LogError( "LotteryRandomSprite not assigned!" );
 			return;
 		}
 

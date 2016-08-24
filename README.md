@@ -6,6 +6,8 @@ LotteryRandom is a generic management system for picking random list entries in 
 * Extension Method Wrapper
 * Generic List Entries
 * LotteryMode (control what happens, when the passed list is empty)
+* Example Scene with a customized Editor
+* Fully commented source code
 
 ## How to Use
 Use the PolyPaw and LotteryRandom namespace and call its methods on the list itself as an ExtensionMethod.

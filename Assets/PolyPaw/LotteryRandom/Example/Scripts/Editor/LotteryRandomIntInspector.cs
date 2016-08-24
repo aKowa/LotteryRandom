@@ -13,11 +13,11 @@ public class LotteryRandomIntInspector : Editor
 
 		if (randomInt == null)
 		{
-			Debug.LogError("MemoGenerator not assigned");
+			Debug.LogError( "LotteryRandomInt not assigned!" );
 			return;
 		}
 
-		if (GUILayout.Button("Memo Randomize"))
+		if (GUILayout.Button("Draw Next"))
 		{
 			randomInt.SetNumber();
 			accessed = true;

@@ -13,11 +13,11 @@ public class LotteryRandomAudioClipInspector : Editor
 
 		if (randomInt == null)
 		{
-			Debug.LogError("MemoGenerator not assigned");
+			Debug.LogError( "LotteryRandomAudioClip not assigned!" );
 			return;
 		}
 
-		if (GUILayout.Button("Memo Randomize"))
+		if (GUILayout.Button("Draw Next"))
 		{
 			randomInt.SetClip();
 			accessed = true;
