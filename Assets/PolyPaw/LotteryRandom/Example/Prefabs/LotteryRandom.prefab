@@ -25,7 +25,7 @@ GameObject:
   - 212: {fileID: 212000011245632322}
   - 82: {fileID: 82000013758446020}
   m_Layer: 0
-  m_Name: LotteryRandom_Example
+  m_Name: LotteryRandom
   m_TagString: Untagged
   m_Icon: {fileID: 0}
   m_NavMeshLayer: 0
@@ -160,8 +160,14 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: bf7e1b7546e141e48b5ff6aeef25803f, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
-  rend: {fileID: 0}
-  sprites: []
+  rend: {fileID: 212000011245632322}
+  sprites:
+  - {fileID: 21300000, guid: 0a4b91ca0fd086e4c880c909ee4aaea6, type: 3}
+  - {fileID: 21300000, guid: c442518c9703c0f46a4db9444380ed0e, type: 3}
+  - {fileID: 21300000, guid: f8e121f3cd375884293883c023669885, type: 3}
+  - {fileID: 21300000, guid: 055cf38049b544f44b1ac94921b8c1cf, type: 3}
+  - {fileID: 21300000, guid: 24256de32320a714c8937a2b4af7935f, type: 3}
+  - {fileID: 21300000, guid: ee0791ff73b18c54f9f7ac537fe4efb2, type: 3}
 --- !u!212 &212000011245632322
 SpriteRenderer:
   m_ObjectHideFlags: 1
