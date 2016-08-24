@@ -1,4 +1,5 @@
-﻿using UnityEngine;
+﻿using System.Collections.Generic;
+using UnityEngine;
 using PolyPaw.LotteryRandom;
 
 public class LotteryRandomInt : MonoBehaviour
