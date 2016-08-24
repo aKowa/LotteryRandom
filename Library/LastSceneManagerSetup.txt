@@ -1,0 +1,4 @@
+sceneSetups:
+- path: Assets/PolyPaw/LotteryRandom/Example/Scenes/Example_LotteryRandom.unity
+  isLoaded: 1
+  isActive: 1
